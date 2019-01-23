@@ -1,6 +1,8 @@
   
-  $(function() {
+
+  $( document ).ready(function() {
   
+    Paloma.start();
 
     // The taskHtml method takes in a JavaScript representation
     // of the task and produces an HTML representation using 
